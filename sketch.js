@@ -29,8 +29,8 @@ function setup() {
 	groundSprite.shapeColor=color(255)
 
         wall1=createSprite(600,100,30,100);;
-	wall2=createSprite(500,200,30,100);
-	wall3=createSprite(400,300,30,100);
+	wall2=createSprite(510,610,20,100);
+	wall3=createSprite(30,610,20,100);
 	engine = Engine.create();
 	world = engine.world;
 
