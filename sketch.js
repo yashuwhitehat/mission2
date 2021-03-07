@@ -31,9 +31,12 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 	
-        wall1=createSprite(width/2,height-50,200,20);;
+        wall1=createSprite(width/2,height-50,200,20);
+	wall1.shapeColor=color("blue");
 	wall2=createSprite(510,610,20,100);
+	wall2.shapeColor=color("blue");
 	wall3=createSprite(310,610,20,100);
+	wall3.shapeColor=color("blue");
 	
 
 	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.4, isStatic:true});
