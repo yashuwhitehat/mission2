@@ -30,7 +30,7 @@ function setup() {
 
         wall1=createSprite(600,100,30,100);;
 	wall2=createSprite(510,610,20,100);
-	wall3=createSprite(30,610,20,100);
+	wall3=createSprite(310,610,20,100);
 	engine = Engine.create();
 	world = engine.world;
 
